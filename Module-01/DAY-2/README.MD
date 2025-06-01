@@ -63,16 +63,7 @@ public class Demo
 
 ## OUTPUT:
 
-```Python
-Input                   Expected          Got
-
-45                       true              true
-67
-
-124                      false             false 
-45      
-
-```
+![1b](https://github.com/user-attachments/assets/852aea03-446c-45ad-a842-ecbb090deb6c)
 
 
 
