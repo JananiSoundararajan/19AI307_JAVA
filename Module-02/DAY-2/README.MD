@@ -44,11 +44,11 @@ public class A
 ```
 
 ## OUTPUT:
-
+```
 Expected        Got
 
 17              17
-
+```
 ## RESULT:
 Thus the java program to display the addition number using private modifiers only was executed successfully.
 
