@@ -16,21 +16,47 @@
  ```
 /*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
+Developed by: JANANI.S
+RegisterNumber: 212222230049
 */
 ```
 
 ## Sourcecode.java:
 
+```
+class Display
+{
+  void wish(String name)
+  {
+      synchronized(this)
+      {
+          for(int i=0;i<2;i++)
+          {
+              System.out.println("Welcome :: "+name);
+          }
+      }
+      try
+      {
+          Thread.sleep(400);
+      }
+      catch(Exception e)
+      {
+          System.out.println(e);
+      }
+  }
+
+
+}
 
 
 
-
+```
 
 
 ## OUTPUT:
 
+
+![image](https://github.com/user-attachments/assets/40cbe7b1-acce-4da0-8174-b78cb0e2783c)
 
 
 ## RESULT:
