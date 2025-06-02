@@ -22,7 +22,22 @@ RegisterNumber:
 
 ## Sourcecode.java:
 
+```
+ 
+             try
+             {
+                OutputStream f=new FileOutputStream("testout.txt",true);
+                String s="Welcome to Saveetha";
+                byte [] b=s.getBytes();
+                f.write(b);
+                f.close();
+                System.out.println("Successfully Completed");
 
+               
+  
+                }
+                catch(Exception e){System.out.println(e);}
+```
 
 
 
@@ -30,6 +45,8 @@ RegisterNumber:
 
 ## OUTPUT:
 
+
+![image](https://github.com/user-attachments/assets/7af46932-5bc5-4a09-8d3d-f46a652e3e95)
 
 
 ## RESULT:
