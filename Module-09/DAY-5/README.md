@@ -3,7 +3,7 @@
 ## AIM:
 To write a Java program that reads a string from the user and prints it using the StringWriter class.
 ## ALGORITHM :
-
+```
 a.	Start the program.
 b.	Import java.io.* and java.util.Scanner.
 c.	Create a Scanner object to read input from the user.
@@ -14,7 +14,7 @@ g.	Convert the StringWriter content to a string using .toString().
 h.	Print the result on the output screen.
 i.	Close the writer.
 j.	End the program.
-
+```
 
 ## PROGRAM:
  ```
