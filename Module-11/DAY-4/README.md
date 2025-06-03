@@ -1,30 +1,23 @@
-# Ex.No:12(D) JAVA QUEUE
-## AIM:
-To Write a java program to display the added elements from the Priority Queue.
+# Ex.No:11(D) RELATED TO MAP CONCEPTS
 
+## AIM:
+To Create a java program to insert and display the key and values using map interface.
 
 ## ALGORITHM :
-1.	Start the Program
-2.	Import `PriorityQueue` and `Scanner`
-3.	Define class `Main` with `main` method:
--	a) Initialize `Scanner` to read input
--	b) Create a `PriorityQueue` of integers
-4.	Read integer `n` from user input for the number of elements
-5.	Use a loop to:
--	a) Read integers and add them to the `PriorityQueue`
-6.	Check if the `PriorityQueue` is not empty:
--	a) Remove and display the highest-priority element using `poll()`
-7.	Display the remaining elements in the `PriorityQueue`
-8.	End.
 
-
-
-
+1.	Start
+2.	Import `java.util.*`
+3.	Define class `Deivamagal` with `main` method:
+-	a) Read integer `n` (number of entries).
+-	b) Create a `HashMap` `hash`.
+4.	Loop to read key-value pairs and add to `hash`.
+5.	Print `"Map: " + hash`, keys, values, and entries.
+6.	End
 
 ## PROGRAM:
  ```
 /*
-Program to implement a JAVA QUEUE using Java
+Program to implement a RELATED TO MAP CONCEPTS using Java
 Developed by: JANANI S
 RegisterNumber: 212222230049
 */
@@ -32,38 +25,41 @@ RegisterNumber: 212222230049
 
 ## Sourcecode.java:
 ```
-import java.util.*;
-
-public class PriorityQueueDemo {
-	
-
-	public static void main(String args[])
-	{
-	
-		PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>();
-        
-	    Scanner sc=new Scanner(System.in);
-	    int size=sc.nextInt();
-	    for(int i=0;i<size;i++){
-	        pQueue.add(sc.nextInt());
-	    }
-	   Iterator iterator = pQueue.iterator();
-	   System.out.println("Iterate the elements from the queue using while loop:");
+import java.util.*;  
+public class Mapp{  
+ public static void main(String args[]){ 
+     
+  Map<Integer,String> numbers=new HashMap<Integer,String>(); 
+  Scanner sc=new Scanner(System.in);
   
-        while (iterator.hasNext()) {
-            System.out.print(iterator.next() + " ");
-        }
-		
-	}
-}
+  int size=sc.nextInt();
+  for(int i=0;i<size;i++)
+  {
+  Integer a=sc.nextInt();
+  String b=sc.next();
+  numbers.put(a,b);  
+  } 
+ 
+ System.out.println("Map: " + numbers);
+
+        
+        System.out.println("Keys: " + numbers.keySet());
+
+        
+        System.out.println("Values: " + numbers.values());
+
+        
+        System.out.println("Entries: " + numbers.entrySet());
+
+       
+ }  
+}  
 ```
 
 ## OUTPUT:
 
-![image](https://github.com/user-attachments/assets/4f22db10-f5f0-4e7a-a4c7-8dda4f3e8fa2)
-
+![image](https://github.com/user-attachments/assets/8017c5f4-1ccd-4101-9194-177ac1176358)
 
 ## RESULT:
-Thus the java program to display the added elements from the Priority Queue is executed successfully.
-
+Thus the java program to insert and display the key and values using map interface was  executed and verified successfully.
 
